@@ -42,7 +42,7 @@ a {
 /*estilos del main*/
 .main-content{
     position: relative;
-    top: 180px;
+    top: 160px;
 }
 .main-1{
     position: relative;
@@ -75,12 +75,14 @@ a {
     position: relative;
     color: white;
     background-color: hsl(224, 93%, 58%);
-    width: 150px;
+    width: 160px;
     height: 40px;
     left: 10px;
+    border: none;
+    border-radius: 3px;
 }
 .form-input{
     position: relative;
     height: 34px;
-    width: 280px;
+    width: 262px;
 }
