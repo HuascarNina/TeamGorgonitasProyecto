@@ -9,6 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400px;
+    width: 370px;
 }
 
 a {
@@ -44,9 +45,13 @@ a {
     position: relative;
     top: 160px;
 }
-.main-1{
+.main-1, .main-2{
     position: relative;
     left: 90px;
+}
+
+.main-2 {
+    bottom: 100px;
 }
 .text-block{
     position: relative;
@@ -58,17 +63,31 @@ a {
 .titulo-1{
     line-height: 50px;
 }
+.titulo-2 {
+    line-height: 50px;
+    width: 600px;
+}
 .text{
     position: relative;
     font-size: 15px;
     top: -10px;
 }
 
-.imagen{
+.curva {
+    position: absolute;
+    left: -189px;
+    top: -150px;
+    z-index: -1;
+}
+.imagen-ilustracion-1, .imagen-ilustracion-2{
     position: relative;
     width: 600px;
     left: 570px;
     top: -350px;
+}
+
+.imagen-ilustracion-2{
+    top: -210px;
 }
 
 .boton-1{
