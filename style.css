@@ -29,9 +29,9 @@ a {
 }
 
 .nav {
-    position: relative;
+    position: absolute;
     left: 950px;
-    top: 5px;
+    top: 70px;
 }
 
 .a-nav {
