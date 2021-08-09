@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.header, h1, h2, a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px, 700px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Estilos del header*/ 
+
+.header {
+    height: 100px;
+}
+
+.logo-header {
+    position: relative;
+    top: 50px;
+    left: 90px;    
+}
+
+.nav {
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+
+.a-nav {
+    margin-left: 50px;
+    color: hsl(243, 87%, 12%);
+}
+
+/*estilos del main*/
+.main-content{
+    position: relative;
+    top: 140px;
+}
+.main-1, .main-2{
+    position: relative;
+    left: 90px;
+    width: 50%;
+}
+.text-block{
+    position: relative;
+    text-align: left;
+    font-size: 23px;
+    width: 500px;
+    
+}
+.titulo-1, .titulo-2{
+    line-height: 50px;
+}
+.text, .text-2{
+    position: relative;
+    top: -10px;
+}
+
+.link, .text, .text-2{
+    font-size: 15px;
+}
+
+.main-2 {
+    bottom: 100px;
+}
+
+.titulo-2{
+    width: 700px;
+}
+
+.imagen{
+    position: relative;
+    width: 600px;
+    left: 570px;
+    top: -350px;
+}
+
+.imagen-2 {
+    position: relative;
+    width: 500px;
+    top: -200px;
+    left: 650px;
+}
+
+.fondo {
+    position: absolute;
+    background-color: hsl(240, 75%, 98%);
+    width: 1341px;
+    height: 610px;
+    border: none;
+    top: 33%; 
+}
+
+.boton-1{
+    position: relative;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    width: 165px;
+    height: 40px;
+    left: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.form-input{
+    position: relative;
+    height: 34px;
+    width: 257px;
+}
+
+.link{
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 3px;
+}
+
+.flecha {
+    position: relative;
+    top: 4px;
+}
+/*----------------------------------------------------------------------------*/
+/*--Seccion N°2--*/
+
+.imagen-curva {
+    position: absolute;
+    top: -142px;
+    left: -189px;
+    border: none;
+}
+
+.cuadrado{
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    width: 330px;
+    height: 140px;
+    top: -350px;
+    box-shadow: 0px 0px 10px 0px rgb(230, 230, 230);
+    padding: 20px;
+}
+.carnet{
+    position: relative;
+    top: -10px;
+    font-size: 13px;
+    width: 300px;
+    word-spacing: 3px;
+}
+.foto{
+    position: relative;
+    top: -6px;
+    border-radius: 100px;
+    width: 30px;
+}
+.info-carnet{
+    position: relative;
+    top: -47px;
+    left: 40px;
+    font-size: 11px;
+    word-spacing: -1px;
+    line-height: 1px;
+}
+
+.comilla{
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+
+.name {
+    position: relative;
+    top: 7px;
+    font-size: 10px;
+}
+
+.company {
+    position: relative;
+    font-size: 8px;
+}

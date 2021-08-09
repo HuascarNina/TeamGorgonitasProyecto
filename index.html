@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="/styles.css">
-  
+  <link rel="stylesheet" type="text/css" href="/style.css">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -18,7 +17,7 @@
 </head>
 <body>
   <header class="header">
-    <img class="logo-header" src="/images/logo.svg" alt="Logo Filo">
+    <img src="/images/logo.svg" alt="Logo Filo" class="logo-header">
     <nav class="nav">
       <a class="a-nav" href="#">Features</a> 
       <a class="a-nav" href="#">Team</a>
@@ -46,27 +45,31 @@
       <img src="/images/illustration-1.svg" alt="Imagen de ilustracion" class="imagen">
     </section>
     
-    <section>
-      <img src="/images/bg-curve-desktop.svg" alt="Diseño de curva">
-      <h1><b>Stay productive, wherever you are</b></h1>
-      <p>Never let location be an issue when accessing your files. Fylo has you 
+    <div class="fondo"></div>
+    
+    <section class="main-2">
+      <img src="/images/bg-curve-desktop.svg" alt="Diseño de curva" class="imagen-curva">
+      <div class="text-block">
+        <h1 class="titulo-2"><b>Stay productive, wherever you are</b></h1>
+      <p class="text-2">Never let location be an issue when accessing your files. Fylo has you 
         covered for all of your file storage needs.
         <br>
         <br>
         Securely share files and folders with friends, family and colleagues for 
         live collaboration. No email attachments required!</p>
-      <a href="#">See how Fylo works <img src="/images/icon-arrow.svg" alt="Flecha verde"></a>
-      <img src="/images/illustration-2.svg" alt="Imagen de ilustracion 2">
-      <div>
-        <img src="/images/icon-quotes.svg" alt="Comillas">
-        <p>Fylo has improved our team productivity by an order of magnitude. Since 
+      <a class="link" href="#" >See how Fylo works <img class="flecha" src="/images/icon-arrow.svg" alt="Flecha verde"></a>
+      <img src="/images/illustration-2.svg" alt="Imagen de ilustracion 2" class="imagen-2">
+      </div>
+      <div class="cuadrado">
+        <img class="comilla" src="/images/icon-quotes.svg" alt="Comillas">
+        <p class="carnet">Fylo has improved our team productivity by an order of magnitude. Since 
           making the switch our team has become a well-oiled collaboration machine.</p>
           <div>
-            <img src="/images/avatar-testimonial.jpg" alt="foto de testimonio personal">
-            <p><b>Kyle Burton</b>
+            <img src="/images/avatar-testimonial.jpg" alt="foto de testimonio personal" class="foto">
+            <div class="info-carnet"><p class="name"><b>Kyle Burton</b></p>
             <br>
-            Founder & CEO, Huddle
-            </p>
+            <p class="company">Founder & CEO, Huddle</p>
+            </div>
           </div>
         </div>
     </section>
@@ -110,9 +113,9 @@
     </div>
 
     <div class="icons-footer">
-      <a href="#"><img src="/icons/Facebook.svg" alt="icono-facebook"></a>
-      <a href="#"><img src="/icons/Twitter.svg" alt="icono-twitter"></a>
-      <a href="#"><img src="/icons/Instagram.svg" alt="icono-instagram"></a>
+      <a href="#"><img src="/icons/Facebook.svg" alt="icono-facebook" width="100px"></a>
+      <a href="#"><img src="/icons/Twitter.svg" alt="icono-twitter" width="100px"></a>
+      <a href="#"><img src="/icons/Instagram.svg" alt="icono-instagram" width="100px"></a>
     </div>
   </footer>
   
