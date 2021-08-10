@@ -7,6 +7,7 @@
 }
 
 body {
+    width: 98.8%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400px;
 }
@@ -43,6 +44,7 @@ a {
 .main-content{
     position: relative;
     top: 140px;
+    height: 1200px;
 }
 .main-1, .main-2{
     position: relative;
@@ -96,7 +98,7 @@ a {
     width: 1341px;
     height: 610px;
     border: none;
-    top: 30%; 
+    top: 47%; 
 }
 
 .boton-1, .boton-2{
@@ -188,7 +190,6 @@ a {
 
 .main-3 {
     position: relative;
-    width: 100%;
     top: -380px;
     width: 101.3%;
     height: 300px;
@@ -230,4 +231,87 @@ a {
 
 .boton-2{
     left: 0px;
+}
+
+/*--footer--*/
+
+.footer {
+    position: relative;
+    top: 399px;
+    width: 101.3%;
+    height: 330px;
+    right: 9px;
+    background: hsl(243, 87%, 12%);
+
+}
+
+.logo-footer, .about-footer, .icons-footer {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.logo-fylo, .icons-footer {
+    filter: brightness(0) invert(1);
+}
+
+.telefono{
+    position: relative;
+    top: 40px;
+    right: 170px;
+}
+
+.text-telefono{
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.text-email{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    color: white;
+}
+.about-footer {
+    left: 400px;
+    height: 202px;
+}
+
+.icons-footer{
+    left: 1000px;
+    top: 140px;
+}
+
+.icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-instagram {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    bottom: 2px;
+}
+
+.a-footer {
+    color: white;
+}
+
+.li-footer {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.segunda-columna{
+    position: relative;
+    left: 300px;
+    bottom: 95px;
+}
+
+.primera-columna {
+    position: relative;
+    top: 55px;
 }
