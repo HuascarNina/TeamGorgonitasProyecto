@@ -96,10 +96,10 @@ a {
     width: 1341px;
     height: 610px;
     border: none;
-    top: 33%; 
+    top: 30%; 
 }
 
-.boton-1{
+.boton-1, .boton-2{
     position: relative;
     color: white;
     background-color: hsl(224, 93%, 58%);
@@ -125,7 +125,7 @@ a {
     position: relative;
     top: 4px;
 }
-/*----------------------------------------------------------------------------*/
+
 /*--Seccion N°2--*/
 
 .imagen-curva {
@@ -182,4 +182,52 @@ a {
 .company {
     position: relative;
     font-size: 8px;
+}
+
+/*--Seccion N°3--*/
+
+.main-3 {
+    position: relative;
+    width: 100%;
+    top: -380px;
+    width: 101.3%;
+    height: 300px;
+    right: 9px;
+    background: hsl(238, 22%, 44%);
+}
+
+.text-block-pre{
+    position: relative;
+    text-align: left;
+    font-size: 22px;
+    left: 100px;
+    top: 90px;
+    width: 500px;
+    color: white;
+}
+
+.text-main-3 {
+    font-size: 15px;
+    word-spacing: 1px;
+    width: 95%;
+}
+
+.form-main-3 {
+    position: relative;
+    left: 775px;
+    bottom: 43px;
+    width: 20%;
+}
+
+.form-input-3 {
+    padding-left: 14px;
+    position: relative;
+    width: 160%;
+    height: 42px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.boton-2{
+    left: 0px;
 }
