@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.header, h1, h2, a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px, 700px;
+}
+
+body {
+    width: 98.8%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Estilos del header*/ 
+
+.header {
+    height: 100px;
+}
+
+.logo-header {
+    position: relative;
+    top: 50px;
+    left: 90px;    
+}
+
+.nav {
+    position: absolute;
+    left: 950px;
+    top: 70px;
+}
+
+.a-nav {
+    margin-left: 50px;
+    color: hsl(243, 87%, 12%);
+}
+
+/*estilos del main*/
+.main-content{
+    position: relative;
+    top: 140px;
+    height: 1200px;
+}
+.main-1, .main-2{
+    position: relative;
+    left: 90px;
+    width: 50%;
+}
+.text-block{
+    position: relative;
+    text-align: left;
+    font-size: 23px;
+    width: 500px;
+    
+}
+.titulo-1, .titulo-2{
+    line-height: 50px;
+}
+.text, .text-2{
+    position: relative;
+    top: -10px;
+}
+
+.link, .text, .text-2{
+    font-size: 15px;
+}
+
+.main-2 {
+    bottom: 100px;
+}
+
+.titulo-2{
+    width: 700px;
+}
+
+.imagen{
+    position: relative;
+    width: 600px;
+    left: 570px;
+    top: -350px;
+}
+
+.imagen-2 {
+    position: relative;
+    width: 500px;
+    top: -200px;
+    left: 650px;
+}
+
+.fondo {
+    position: absolute;
+    background-color: hsl(240, 75%, 98%);
+    width: 1341px;
+    height: 610px;
+    border: none;
+    top: 47%; 
+}
+
+.boton-1, .boton-2{
+    position: relative;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    width: 165px;
+    height: 40px;
+    left: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.form-input{
+    position: relative;
+    height: 34px;
+    width: 257px;
+}
+
+.link{
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 3px;
+}
+
+.flecha {
+    position: relative;
+    top: 4px;
+}
+
+/*--Seccion N°2--*/
+
+.imagen-curva {
+    position: absolute;
+    top: -142px;
+    left: -189px;
+    border: none;
+}
+
+.cuadrado{
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    width: 330px;
+    height: 140px;
+    top: -350px;
+    box-shadow: 0px 0px 10px 0px rgb(230, 230, 230);
+    padding: 20px;
+}
+.carnet{
+    position: relative;
+    top: -10px;
+    font-size: 13px;
+    width: 300px;
+    word-spacing: 3px;
+}
+.foto{
+    position: relative;
+    top: -6px;
+    border-radius: 100px;
+    width: 30px;
+}
+.info-carnet{
+    position: relative;
+    top: -47px;
+    left: 40px;
+    font-size: 11px;
+    word-spacing: -1px;
+    line-height: 1px;
+}
+
+.comilla{
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+
+.name {
+    position: relative;
+    top: 7px;
+    font-size: 10px;
+}
+
+.company {
+    position: relative;
+    font-size: 8px;
+}
+
+/*--Seccion N°3--*/
+
+.main-3 {
+    position: relative;
+    top: -380px;
+    width: 101.3%;
+    height: 300px;
+    right: 9px;
+    background: hsl(238, 22%, 44%);
+}
+
+.text-block-pre{
+    position: relative;
+    text-align: left;
+    font-size: 22px;
+    left: 100px;
+    top: 90px;
+    width: 500px;
+    color: white;
+}
+
+.text-main-3 {
+    font-size: 15px;
+    word-spacing: 1px;
+    width: 95%;
+}
+
+.form-main-3 {
+    position: relative;
+    left: 775px;
+    bottom: 43px;
+    width: 20%;
+}
+
+.form-input-3 {
+    padding-left: 14px;
+    position: relative;
+    width: 160%;
+    height: 42px;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.boton-2{
+    left: 0px;
+}
+
+/*--footer--*/
+
+.footer {
+    position: relative;
+    top: 399px;
+    width: 101.3%;
+    height: 330px;
+    right: 9px;
+    background: hsl(243, 87%, 12%);
+
+}
+
+.logo-footer, .about-footer, .icons-footer {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.logo-fylo, .icons-footer {
+    filter: brightness(0) invert(1);
+}
+
+.telefono{
+    position: relative;
+    top: 40px;
+    right: 170px;
+}
+
+.text-telefono{
+    position: relative;
+    left: 30px;
+    color: white;
+}
+
+.text-email{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    color: white;
+}
+.about-footer {
+    left: 400px;
+    height: 202px;
+}
+
+.icons-footer{
+    left: 1000px;
+    top: 140px;
+}
+
+.icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-instagram {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    bottom: 2px;
+}
+
+.a-footer {
+    color: white;
+}
+
+.li-footer {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.segunda-columna{
+    position: relative;
+    left: 300px;
+    bottom: 95px;
+}
+
+.primera-columna {
+    position: relative;
+    top: 55px;
+}
