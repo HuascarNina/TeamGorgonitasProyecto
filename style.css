@@ -315,3 +315,201 @@ a {
     position: relative;
     top: 55px;
 }
+
+/*Estilos responsive*/
+
+@media(max-width: 600px){
+    body {
+        overflow-x: hidden;
+    }
+    /*header*/
+    .header{
+        position: relative;
+        right: 60px;
+        bottom: 15px;
+    }
+
+    .logo-header {
+        width: 140px;
+    }
+
+    .a-nav {
+        position: relative;
+        right: 670px;
+        bottom: 55px;
+        margin-left: 20px;
+    }
+
+    .nav {
+        position: relative;
+        width: 400px;
+    }
+
+    /*main-content*/
+
+    .main-content{
+        position: relative;
+        right: 90px;
+        height: 1200px;
+    }
+
+    .imagen, .imagen-2 {
+        position: relative;
+        width: 300px;
+        left: 90px;
+        top: -450px;
+    }
+
+    .text-block {
+        position: relative;
+        top: 210px;
+        left: 15px;
+        text-align: center;
+        width: 450px;
+    }
+
+    .text{
+        width: 400px;
+        font-size: 18px;
+        left: 20px;
+        
+    }
+
+    .boton-1 {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        width: 370px;
+        height: 45px;
+    }
+
+    .form-input {
+        position: relative;
+        left: -1px;
+        width: 363px;
+        height: 40px;
+        border-radius: 4px;
+        border-style: groove;
+        text-indent: 15px;
+    }
+
+    .main-2 {
+        position: relative;
+        top: 100px;
+    }
+
+    .imagen-curva{
+        position: relative;
+        width: 505px;
+        left: -30px;  
+        top: 10px;         
+    }
+
+    .fondo {
+        position: absolute;
+        top: 760px;
+        width: 565px;
+        height: 900px;
+        border-style: none;
+    }
+
+    .imagen-2 {
+        left: 0px;
+        top: -450px;
+    }
+
+    .titulo-2 {
+        position: relative;
+        width: 400px;
+        font-size: 25px;
+        left: 20px;
+        top: 70px;
+    }
+
+    .text-2{
+        position: relative;
+        top: 60px;
+        text-align: left;
+        width: 450px;
+        font-size: 18px;
+        color: hsl(0, 0%, 75%);
+    }
+
+    .link{
+        position: relative;
+        top: 60px;
+        font-size: 15px;
+    }
+
+    .cuadrado {
+        position: relative;
+        top: 80px;
+        left: 55px;
+    }
+
+    .carnet{
+        width: 310px;
+    }
+
+    .main-3 {
+        position: relative;
+        top: 253px;
+        width: 574px;
+        height: 450px;
+    }
+
+    .text-block-pre {
+        position: relative;
+        text-align: center;
+        left: 80px;
+        font-size: 18px;
+    }
+
+    .text-main-3 {
+        position: relative;
+        left: 80px;
+        font-size: 16px;
+        width: 330px;
+    }
+
+    .form-main-3 {
+        position: relative;
+        top: 100px;
+        left: 178px;
+        width: 180px;
+    }
+
+    .boton-2 {
+        position: relative;
+        width: 303px;
+    }
+
+    .footer {
+        position: relative;
+        top: 1000px;
+        width: 484px;
+        height: 680px;
+    }
+
+    .logo-footer {
+        position: relative;
+        left: 60px;
+    }
+
+    .about-footer{
+        left: 20px;
+        top: 200px;
+    }
+
+    .segunda-columna {
+        top: 100px;
+        left: 0px;
+    }
+
+    .icons-footer {
+        left: 190px;
+        top: 600px;
+    }
+    
+    
+}
