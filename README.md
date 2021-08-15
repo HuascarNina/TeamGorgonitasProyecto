@@ -7,6 +7,9 @@ que ofrece servicios de alojamiento y backend sin servidor para aplicaciones web
 Link: https://awesome-lumiere-334948.netlify.app
 ### Colaboradores
 Almendro Torrico Fabian Israel
+
 Bautista Paganelli Rodrigo Leonardo
+
 Nina Sardinas Huascar Manuel
+
 Guillen Rivera Sergio
